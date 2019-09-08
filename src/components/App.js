@@ -1,8 +1,13 @@
 import React from 'react';
 
+import CountdownInput from './CountdownInput';
+
 const App = () => {
   return (
-    <div>hello world!</div>
+    <div>
+      <h1>Countdown Timer</h1>
+      <CountdownInput />
+    </div>
   )
 }
 
