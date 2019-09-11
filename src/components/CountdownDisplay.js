@@ -3,7 +3,8 @@ import React from 'react';
 const CountdownDisplay = () => {
   return (
     <div>
-      <p>DAYS : HOURS : MINUTES</p>
+      <h3>Event Title</h3>
+      <p>DAYS : HOURS : MINUTES left!</p>
     </div>
   )
 }
